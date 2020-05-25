@@ -97,7 +97,7 @@
  
  
 	    }
- 
+add func3
 	    @Test
 	    public void findByCategoryTypeIn() {
 	        List<Integer> list = Arrays.asList(1, 2, 3, 4);
