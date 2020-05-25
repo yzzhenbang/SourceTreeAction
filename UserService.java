@@ -1,15 +1,14 @@
-	Service层学习总结：
-	1、在包下新增Service包
-	2、在包类添加CategoryService接口，在接口中添加需要用到的方法。
-	3、添加CategoryServiceImpl类，并实现CategoryService的方法，在类上添加注解@Service；注入repository.
-	4、测试类：在测试类中注入CategoryServiceImpl，写Service中的各个方法测试
-	//Service接口
+	
+
+        add func1
+
 	package com.dairy.sell.service;
  
 	import com.dairy.sell.dataobject.ProductCategory;
  
 	import java.util.List;
  
+
 	public interface CategoryService {
 	    ProductCategory findOne(Integer categoryId);
 	    List<ProductCategory> findAll();
@@ -17,8 +16,10 @@
 	    ProductCategory save(ProductCategory productCategory);
  
 	}
- 
-	//Service层实现
+        
+        add func2
+
+	
 	package com.dairy.sell.service.impl;
  
 	import com.dairy.sell.dataobject.ProductCategory;
@@ -54,7 +55,8 @@
 	    }
 	}
  
-	//测试类
+         add func3
+	
  
 	package com.dairy.sell.service.impl;
  
