@@ -82,13 +82,14 @@
  
 	    @Autowired
 	    private CategoryServiceImpl categoryService;
-add func1
+ 
+ 
 	    @Test
 	    public void findOne() {
 	        ProductCategory productCategory = categoryService.findOne(1);
 	        Assert.assertNotEquals(new Integer(2), productCategory.getCategoryId());
 	    }
-add func2
+ 
 	    @Test
 	    public void findAll() {
 	        List<ProductCategory> productCategory = categoryService.findAll();
