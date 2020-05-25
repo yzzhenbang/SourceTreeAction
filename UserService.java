@@ -49,6 +49,7 @@
 	        return productCategoryRepository.findByCategoryTypeIn(categoryTypeId);
 	    }
  
+ addFunction3
 	    @Override
 	    public ProductCategory save(ProductCategory productCategory) {
 	        return productCategoryRepository.save(productCategory);
